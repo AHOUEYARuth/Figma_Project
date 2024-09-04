@@ -1,10 +1,12 @@
 <template>
-
+    <div class="draggable_element">
+        <slot></slot>
+    </div>
 </template>
 
 <script setup lang="ts">
     import interact from "interactjs";
-    interact(".rectangle").draggable(
+    interact(".draggable_element").draggable(
         {
             modifiers: [
                 interact.modifiers.restrictRect({

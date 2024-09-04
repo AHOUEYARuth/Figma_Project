@@ -1,5 +1,5 @@
 <template>
-  <MyLayer></MyLayer>
+  <MyLayer/>
   <MyView label="bonjour c'est Amra" 
   :color="color" 
   :rotation="rotation" 
@@ -75,7 +75,7 @@
 import Minus from './components/icons/Minus.vue';
 import Plus from './components/icons/Plus.vue';
 import MyLayer from './components/MyLayer.vue';
-import MyView from './MyView.vue';
+import MyView from './components/MyView.vue';
 import { ref, watch } from "vue"
 const color = ref('grey')
 const borderColor = ref('#000')
