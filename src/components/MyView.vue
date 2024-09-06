@@ -64,7 +64,7 @@ watch(style, () => {
   selectedElement.value?.setAttribute("style", style.value);
 });
 </script>
-
+<!-- jkpeyi -->
 <style scoped>
 .view {
   width: 100%;
